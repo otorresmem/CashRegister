@@ -1,0 +1,134 @@
+html, body, div, span, h1, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: Courier New, Courier, monospace;
+}
+
+.header {
+    margin: 10px 0px 10px 20px;
+}
+
+h1 {
+    font-size: 250%;
+    font-weight: bold;
+    color: #00809e;
+}
+
+.cash-register-normal-font {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#pageTitle, #cashRegisterLogo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#firm {
+    font-size: 25%;
+    margin-left: 5px;
+    font-style: italic;
+}
+
+.top-buffer {
+    margin-top: 20px;
+}
+
+#myWizard {
+    margin: 0;
+}
+
+#cashRegistry {
+    padding-top: 0px;
+}
+
+.cash-box {
+    background-color: lightgrey;
+    border: 2px solid darkgrey;
+    border-radius: 0.50em;
+    padding: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.cash-box .input-group, .cash-box .input-group-addon, .cash-box .form-control {
+    font-size: 120%;
+}
+
+.cash-box .input-group-addon {
+    font-weight: bold;
+}
+
+.cash-box .form-control {
+    height: auto;
+}
+
+.cash-box input {
+    text-align: right;
+}
+
+.btn-cash-box {
+    color: black;
+    background-color: darkgrey;
+    border-color: #898888;
+    border-width: 2px;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+#btnCalculateContainer, #btnMakePaymentContainer {
+    text-align: right;
+}
+
+#statusY {
+    font-weight: bold;
+    color: forestgreen;
+    font-size: 130%;
+}
+
+#changeDetails {
+    color: black;
+    font-weight: normal;
+}
+
+#changeDetails span {
+    font-weight: bold;
+    font-size: 110%;
+}
+
+#statusN {
+    font-weight: bold;
+    color: darkred;
+    font-size: 130%;
+}
+
+#statusList, #statusList span {
+    font-size: 110%;
+    font-weight: bold;
+}
+
+#totalAmountAvailable {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+#viewDetailsBtn {
+    color: forestgreen;
+}
+
+#viewDetailsBtn:focus {
+    outline: none;
+}
+
+#viewDetailsBtn:visited, #viewDetailsBtn:active, #viewDetailsBtn:focus {
+    text-decoration: none !important;
+}
+#viewDetailsBtn:hover {
+    text-decoration: underline !important;
+}
