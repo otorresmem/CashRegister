@@ -1,0 +1,20 @@
+var constants = {
+    PENNY: 'PENNY',
+    NICKEL: 'NICKEL',
+    DIME: 'DIME',
+    QUARTER: 'QUARTER',
+    ONE: 'ONE',
+    FIVE: 'FIVE',
+    TEN: 'TEN',
+    TWENTY: 'TWENTY',
+    HUNDRED: 'HUNDRED',
+    PENNY_VALUE: '&cent;1',
+    NICKEL_VALUE: '&cent;5',
+    DIME_VALUE: '&cent;10',
+    QUARTER_VALUE: '&cent;25',
+    ONE_VALUE: '$1',
+    FIVE_VALUE: '$5',
+    TEN_VALUE: '$10',
+    TWENTY_VALUE: '$20',
+    HUNDRED_VALUE: '$100'
+}
